@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="QuotesApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>QuotesApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="QuotesApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="QuotesApp:war exploded" />
+    </root>
+  </artifact>
+</component>
