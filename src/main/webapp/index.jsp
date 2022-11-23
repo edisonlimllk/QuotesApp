@@ -5,7 +5,6 @@
     <title>QuotesApp</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/bootstrap.min.js"></script>
-
 </head>
 <body>
 <h1><%= "Landing Page for our DevOps Assignment 1" %>
