@@ -2,10 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>QuotesApp</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Landing Page for our DevOps Assignment 1" %>
 </h1>
 <br/>
 <a href="hello-">Hello Servlet</a>
