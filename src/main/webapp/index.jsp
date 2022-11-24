@@ -10,6 +10,6 @@
 <h1><%= "Landing Page for our DevOps Assignment 1" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="hello-">Hello Servlet</a>
 </body>
 </html>
