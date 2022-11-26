@@ -11,6 +11,6 @@
 <h1><%= "AboutUsPage" %>
 </h1>
 <br/>
-<a href="aboutUs-servlet">aboutUs Servlet</a>
+
 </body>
 </html>

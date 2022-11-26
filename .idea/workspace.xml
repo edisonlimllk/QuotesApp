@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/AboutUsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AboutUsPage.jsp" afterDir="false" />
+    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="testing aboutuspage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AboutUsPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AboutUsPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.83" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
         <artifact name="QuotesApp:war exploded">
           <settings>
@@ -169,6 +169,7 @@
       <updated>1669103964693</updated>
       <workItem from="1669103965931" duration="928000" />
       <workItem from="1669360250211" duration="1604000" />
+      <workItem from="1669468599568" duration="1749000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1669104478777</created>
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669104478777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testing aboutuspage">
+      <created>1669469367547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669469367547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +204,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="testing aboutuspage" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing aboutuspage" />
   </component>
 </project>
