@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="testing aboutuspage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AboutUsPage.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +170,10 @@
       <workItem from="1669360250211" duration="1604000" />
       <workItem from="1669468599568" duration="1814000" />
       <workItem from="1669472232612" duration="8000" />
+      <workItem from="1669488853423" duration="253000" />
+      <workItem from="1669562791235" duration="7000" />
+      <workItem from="1669615869629" duration="1345000" />
+      <workItem from="1669625757712" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1669104478777</created>
@@ -191,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669472163846</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing aboutuspage">
+      <created>1669489057928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669489057928</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
