@@ -1,8 +1,7 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
+
 <html>
 <head>
-    <title>QuotesApp</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/bootstrap.min.js"></script>
 </head>
@@ -30,18 +29,16 @@
     </div>
 </header>
 <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <h1 class="display-5 fw-bold text-white">QuoteApp</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4">Welcome to the one-stop shop for fantastic quotes. </p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a style="text-decoration: none" href="hello-servlet">Get Started</a></button>
-            </div>
+    <h1 class="display-5 fw-bold text-white">QuoteApp</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Welcome to the one-stop shop for fantastic quotes. </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a style="text-decoration: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Odio eu feugiat pretium nibh ipsum consequat nisl vel.
+                A erat nam at lectus urna duis convallis. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Lacinia at quis risus sed.lorem ips</a>
         </div>
-</div>
-<footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-        <span class="text-muted">DevOps Group Assignment Part 1 | 2022 | All Rights Reserved</span>
     </div>
-</footer>
+</div>
+We give u quotes u give us money!
 </body>
 </html>
