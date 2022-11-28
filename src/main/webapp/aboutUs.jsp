@@ -35,7 +35,7 @@
     </div>
 </div>
 <div class="bg- text-secondary px-4 py-5 text-center">
-    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+    <div class="container text-center">
     <a class="display-6 fw-bold text-black" style="text-decoration: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Odio eu feugiat pretium nibh ipsum consequat nisl vel.
         A erat nam at lectus urna duis convallis. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Lacinia at quis risus sed.lorem ips</a>
