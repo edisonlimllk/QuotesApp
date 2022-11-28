@@ -7,6 +7,28 @@
     <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form>
+
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+        </div>
+    </div>
+</header>
 <div class="bg-dark text-secondary px-4 py-5 text-center">
         <h1 class="display-5 fw-bold text-white">QuoteApp</h1>
         <div class="col-lg-6 mx-auto">
@@ -16,5 +38,10 @@
             </div>
         </div>
 </div>
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <span class="text-muted">DevOps Group Assignment Part 1 | 2022 | All Rights Reserved</span>
+    </div>
+</footer>
 </body>
 </html>
