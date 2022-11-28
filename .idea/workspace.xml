@@ -9,27 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="testing aboutuspage">
+    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="Fix hello servlet bug">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/AboutUsPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="edison" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="xavier" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2HtUdU1reVWwYuIM4JECeZ3H2zG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,11 +55,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/llnos/Downloads/bootstrap-5.0.2-examples/bootstrap-5.0.2-examples/sticky-footer/index.html&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -70,7 +73,6 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.83" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
         <artifact name="QuotesApp:war exploded">
           <settings>
@@ -80,7 +82,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="0c66e0eb-1ee8-498f-803f-2f9c007a02d4" />
-        <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="1090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -167,13 +169,9 @@
       <option name="presentableId" value="Default" />
       <updated>1669103964693</updated>
       <workItem from="1669103965931" duration="928000" />
-      <workItem from="1669360250211" duration="1604000" />
-      <workItem from="1669468599568" duration="1814000" />
-      <workItem from="1669472232612" duration="8000" />
-      <workItem from="1669488853423" duration="253000" />
-      <workItem from="1669562791235" duration="7000" />
-      <workItem from="1669615869629" duration="1345000" />
-      <workItem from="1669625757712" duration="109000" />
+      <workItem from="1669242646174" duration="639000" />
+      <workItem from="1669483592949" duration="25000" />
+      <workItem from="1669622945863" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1669104478777</created>
@@ -182,28 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669104478777</updated>
     </task>
-    <task id="LOCAL-00002" summary="testing aboutuspage">
-      <created>1669469367547</created>
+    <task id="LOCAL-00002" summary="Add Bootstrap Hero To index.jsp">
+      <created>1669236579008</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1669469367547</updated>
+      <updated>1669236579008</updated>
     </task>
-    <task id="LOCAL-00003" summary="testing aboutuspage">
-      <created>1669472163846</created>
+    <task id="LOCAL-00003" summary="Add Bootstrap Hero Element To Landing Page">
+      <created>1669246172625</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1669472163846</updated>
+      <updated>1669246172625</updated>
     </task>
-    <task id="LOCAL-00004" summary="testing aboutuspage">
-      <created>1669489057928</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669489057928</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +205,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="edison_feature_landing_page" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -222,7 +240,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <MESSAGE value="testing aboutuspage" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing aboutuspage" />
+    <MESSAGE value="Add Bootstrap Hero To index.jsp" />
+    <MESSAGE value="Add Bootstrap Hero Element To Landing Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Bootstrap Hero Element To Landing Page" />
   </component>
 </project>
