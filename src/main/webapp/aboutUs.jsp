@@ -4,6 +4,50 @@
     <title>About Us</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/bootstrap.min.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            /* The image used */
+            background-image: url("albert_einstein_photo(1).jpg");
+
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bg-text {
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
 <header class="p-3 bg-dark text-white">
@@ -33,13 +77,13 @@
     <div class="col-lg-6 mx-auto">
         <p class="fs-5 mb-4">Welcome to the one-stop shop for fantastic quotes. </p>
     </div>
-</div>
-<div class="bg- text-secondary px-4 py-5 text-center">
-    <div class="container text-center">
-    <a class="display-6 fw-bold text-black" style="text-decoration: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Odio eu feugiat pretium nibh ipsum consequat nisl vel.
-        A erat nam at lectus urna duis convallis. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Lacinia at quis risus sed.lorem ips</a>
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <h1 style="font-size:50px">About Us</h1>
+        <h2>We are committed to ensuring you get the quotes you need to impress your friends and to give yourself the motivation to seek more </h2>
     </div>
 </div>
+
 </body>
 </html>
