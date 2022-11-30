@@ -1,17 +1,17 @@
 package com.example.quotesapp;
 
 import java.io.*;
+import java.util.ArrayList;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
     private String message;
-    private String quotes;
-
+//    private String quotes;
     public void init() {
         message = "QuotesApp Devops Assignment";
-        quotes = "An apple a day, keeps the doctor away.";
+//        quotes = "An apple a day, keeps the doctor away.";
     }
 
 
@@ -49,8 +49,10 @@ public class HelloServlet extends HttpServlet {
                 "        </div>\n" +
                 "    </div>\n" +
                 "</header>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("<h2>" + quotes + "</h2>");
+        out.println("<div class=\"bg-dark text-secondary px-4 py-5 text-center\">\n" +
+                "        <h1 class=\"display-5 fw-bold text-white\">"+ message +"</h1>\n" +
+                "</div>");
+        out.println("<h2>" + "</h2>");
         out.println("</body></html>");
     }
 

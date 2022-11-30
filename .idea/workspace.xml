@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="Fix hello servlet bug">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/feed_page.jsp" afterDir="false" />
+    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="Added the navbar to servlet, and tested out adding a quote.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" afterDir="false" />
     </list>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669246172625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added the navbar to servlet, and tested out adding a quote.">
+      <created>1669790831473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669790831473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +255,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Add Bootstrap Hero To index.jsp" />
     <MESSAGE value="Add Bootstrap Hero Element To Landing Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Bootstrap Hero Element To Landing Page" />
+    <MESSAGE value="Added the navbar to servlet, and tested out adding a quote." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the navbar to servlet, and tested out adding a quote." />
   </component>
 </project>
