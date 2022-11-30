@@ -1,7 +1,6 @@
 package com.example.quotesapp;
 
 import java.io.*;
-import java.util.ArrayList;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
@@ -10,7 +9,7 @@ public class HelloServlet extends HttpServlet {
     private String message;
 //    private String quotes;
     public void init() {
-        message = "QuotesApp Devops Assignment";
+        message = "Featured Quotes of the Day!";
 //        quotes = "An apple a day, keeps the doctor away.";
     }
 
@@ -52,8 +51,56 @@ public class HelloServlet extends HttpServlet {
         out.println("<div class=\"bg-dark text-secondary px-4 py-5 text-center\">\n" +
                 "        <h1 class=\"display-5 fw-bold text-white\">"+ message +"</h1>\n" +
                 "</div>");
-        out.println("<h2>" + "</h2>");
+        out.println("<div class=\"card\">\n" +
+                "  <div class=\"card-header\">\n" +
+                "    Featured\n" +
+                "  </div>\n" +
+                "  <div class=\"card-body\">\n" +
+                "    <h5 class=\"card-title\">Joseph Conrad</h5>\n" +
+                "    <p class=\"card-text\">The belief in a supernatural source of evil is not necessary. Men alone are quite capable of every wickedness.</p>\n" +
+                "  </div>\n" +
+                "</div>" + "<div class=\"card\">\n" +
+                        "  <div class=\"card-header\">\n" +
+                        "  </div>\n" +
+                        "  <div class=\"card-body\">\n" +
+                        "    <h5 class=\"card-title\">Winston Churchill</h5>\n" +
+                        "    <p class=\"card-text\">The farther backward you can look, the farther forward you can see.</p>\n" +
+                        "  </div>\n" +
+                        "</div>" + "<div class=\"card\">\n" +
+                        "  <div class=\"card-header\">\n" +
+                        "  </div>\n" +
+                        "  <div class=\"card-body\">\n" +
+                        "    <h5 class=\"card-title\">Samuel Beckett</h5>\n" +
+                        "    <p class=\"card-text\">Try again, fail again. Fail better.</p>\n" +
+                        "  </div>\n" +
+                        "</div>" +
+                        "</div>" + "<div class=\"card\">\n" +
+                        "  <div class=\"card-header\">\n" +
+                        "  </div>\n" +
+                        "  <div class=\"card-body\">\n" +
+                        "    <h5 class=\"card-title\">Albert Einstein</h5>\n" +
+                        "    <p class=\"card-text\">Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.</p>\n" +
+                        "  </div>\n" +
+                        "</div>" +
+                        "</div>" + "<div class=\"card\">\n" +
+                        "  <div class=\"card-header\">\n" +
+                        "  </div>\n" +
+                        "  <div class=\"card-body\">\n" +
+                        "    <h5 class=\"card-title\">Rose Kennedy</h5>\n" +
+                        "    <p class=\"card-text\">Birds sing after a storm. Why shouldn't people feel as free to delight in whatever sunlight remains to them?</p>\n" +
+                        "  </div>\n" +
+                        "</div>" +
+                        "</div>" + "<div class=\"card\">\n" +
+                        "  <div class=\"card-header\">\n" +
+                        "  </div>\n" +
+                        "  <div class=\"card-body\">\n" +
+                        "    <h5 class=\"card-title\">William Shakespeare</h5>\n" +
+                        "    <p class=\"card-text\">Nothing is so common as the wish to be remarkable.</p>\n" +
+                        "  </div>\n" +
+                        "</div>"
+                );
         out.println("</body></html>");
+
     }
 
     public void destroy() {
