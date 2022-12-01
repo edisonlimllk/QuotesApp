@@ -10,6 +10,8 @@ target/
 .idea/shelf
 .idea/compiler.xml
 .idea/libraries/
+.idea/workspace.xml
+.idea/shelf
 *.iws
 *.iml
 *.ipr
