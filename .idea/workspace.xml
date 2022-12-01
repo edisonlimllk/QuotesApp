@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="Added quotes list to servlet, hardcoded">
+
+    <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="Fix hello servlet bug">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" afterDir="false" />
     </list>
@@ -17,17 +20,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/irfan" />
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="edison" />
@@ -187,7 +179,7 @@
       <workItem from="1669242646174" duration="639000" />
       <workItem from="1669483592949" duration="25000" />
       <workItem from="1669622945863" duration="74000" />
-      <workItem from="1669863875730" duration="628000" />
+
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1669104478777</created>
@@ -202,6 +194,7 @@
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1669236579008</updated>
+
     </task>
     <task id="LOCAL-00003" summary="Add Bootstrap Hero Element To Landing Page">
       <created>1669246172625</created>
@@ -210,28 +203,8 @@
       <option name="project" value="LOCAL" />
       <updated>1669246172625</updated>
     </task>
-    <task id="LOCAL-00004" summary="Added the navbar to servlet, and tested out adding a quote.">
-      <created>1669790831473</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669790831473</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added quotes list to servlet, hardcoded">
-      <created>1669810058740</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1669810058740</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added quotes list to servlet, hardcoded">
-      <created>1669810122312</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1669810122312</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,8 +252,8 @@
     <MESSAGE value="." />
     <MESSAGE value="Add Bootstrap Hero To index.jsp" />
     <MESSAGE value="Add Bootstrap Hero Element To Landing Page" />
-    <MESSAGE value="Added the navbar to servlet, and tested out adding a quote." />
-    <MESSAGE value="Added quotes list to servlet, hardcoded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added quotes list to servlet, hardcoded" />
+
+    <option name="LAST_COMMIT_MESSAGE" value="Add Bootstrap Hero Element To Landing Page" />
+
   </component>
 </project>
