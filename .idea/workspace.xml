@@ -10,17 +10,20 @@
   </component>
   <component name="ChangeListManager">
 
+
     <list default="true" id="40ec41b5-278f-44db-a9fa-3e2f124101db" name="Changes" comment="Fix hello servlet bug">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/quotesapp/HelloServlet.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="edison" />
   </component>
@@ -74,7 +77,6 @@
       <recent name="com.example.quotesapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\irfan daniyal\IdeaProjects\QuotesApp\src\main\webapp" />
       <recent name="C:\Users\llnos\IdeaProjects\QuotesApp\src\main\webapp" />
     </key>
   </component>
@@ -179,7 +181,6 @@
       <workItem from="1669242646174" duration="639000" />
       <workItem from="1669483592949" duration="25000" />
       <workItem from="1669622945863" duration="74000" />
-
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1669104478777</created>
@@ -204,7 +205,6 @@
       <updated>1669246172625</updated>
     </task>
     <option name="localTasksCounter" value="4" />
-
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,8 +252,6 @@
     <MESSAGE value="." />
     <MESSAGE value="Add Bootstrap Hero To index.jsp" />
     <MESSAGE value="Add Bootstrap Hero Element To Landing Page" />
-
     <option name="LAST_COMMIT_MESSAGE" value="Add Bootstrap Hero Element To Landing Page" />
-
   </component>
 </project>
