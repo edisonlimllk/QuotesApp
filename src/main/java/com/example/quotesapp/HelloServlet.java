@@ -34,10 +34,6 @@ public class HelloServlet extends HttpServlet {
                 "                <li><a href=\"#\" class=\"nav-link px-2 text-white\">About</a></li>\n" +
                 "            </ul>\n" +
                 "\n" +
-                "            <div class=\"text-end\">\n" +
-                "                <button type=\"button\" class=\"btn btn-outline-light me-2\">Login</button>\n" +
-                "                <button type=\"button\" class=\"btn btn-warning\">Sign-up</button>\n" +
-                "            </div>\n" +
                 "        </div>\n" +
                 "    </div>\n" +
                 "</header>");
