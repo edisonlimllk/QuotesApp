@@ -24,7 +24,7 @@
 					<div class="signup-form">
 						<h2 class="form-title">Sign up</h2>
 					
-						<form method="" action="" class="register-form"
+						<form method="post" action="" class="register-form"
 							id="register-form">
 							<div class="form-group">
 								<label for="name"><i
@@ -74,8 +74,3 @@
 	<script src="vendor/jquery/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 
-
-
-</body>
-<!-- This templates was made by Colorlib (https://colorlib.com) -->
-</html>
