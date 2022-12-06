@@ -57,11 +57,6 @@
                 <li><a href="index.jsp" class="nav-link px-2 text-white">Home</a></li>
                 <li><a href="aboutUs.jsp" class="nav-link px-2 text-secondary">About</a></li>
             </ul>
-
-            <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
-                <button type="button" class="btn btn-warning">Sign-up</button>
-            </div>
         </div>
     </div>
 </header>
