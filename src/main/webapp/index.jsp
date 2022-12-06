@@ -14,6 +14,7 @@
                 <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
                 <li><a href="aboutUs.jsp" class="nav-link px-2 text-white">About</a></li>
             </ul>
+
         </div>
     </div>
 </header>
